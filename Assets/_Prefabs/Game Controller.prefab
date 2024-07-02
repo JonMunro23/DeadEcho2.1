@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6125436936810569452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7548418662693836333}
+  - component: {fileID: 1725865503517195364}
+  - component: {fileID: 7632313438563267916}
+  - component: {fileID: 8355518736745302787}
+  - component: {fileID: 4318926647651389507}
+  - component: {fileID: 1241832608306915866}
+  - component: {fileID: 4921592413071829563}
+  - component: {fileID: 1734961533570095856}
+  - component: {fileID: 4866901794520760957}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7548418662693836333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1725865503517195364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba6156af7d0e8e4ab0b286d6a466eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameplaySettings: {fileID: 11400000, guid: 710c9e9c03cfb6540a5c6467c25654e3, type: 2}
+  m_InputBindings: {fileID: -944628639613478452, guid: 6d33767ad1195cc459e53ae6793e67b3,
+    type: 3}
+--- !u!114 &7632313438563267916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf41cb7fcbaeb347ab3035b2dd47114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SfxVolume: 1
+  m_VoiceVolume: 1
+  m_MusicVolume: 1
+  m_SfxMixer: {fileID: 243335366053303442, guid: 439d7d260bd1a1d49ac3f31a76cb4381,
+    type: 2}
+  m_MusicMixer: {fileID: 243730406919017618, guid: 439d7d260bd1a1d49ac3f31a76cb4381,
+    type: 2}
+--- !u!114 &8355518736745302787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f80a5c1ed85e9a418eccbe87fac18e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MaxDecals: 250
+  m_DecalSeparator: 0.166
+--- !u!114 &4318926647651389507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99c2874ae8d0fe47937dff456d7159b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemPurchaseSound: {fileID: 8300000, guid: 0b862c512d040c54f93de3cd188efd4e, type: 3}
+  m_ItemPurchaseVolume: 0.6
+  awardedPointsData: {fileID: 11400000, guid: ef81d2f854b8d9e4eb9a0262ab8bfa4f, type: 2}
+  m_StartingPoints: 2500
+  m_AmmoCost: 500
+  gainedPointsTextSpawnLocation: {fileID: 0}
+--- !u!114 &1241832608306915866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 791d803c26beaa94e97782d8e9912eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remaningAmountToSpawn: 0
+  totalAmountToSpawn: 0
+  aliveZombies: 0
+  zombiesKilledThisRound: 0
+  activeSpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  walkingZombie: {fileID: 172121580578702208, guid: e21331f162ed6d9499231edbba92e6d2,
+    type: 3}
+  runningZombie: {fileID: 172121580578702208, guid: e21331f162ed6d9499231edbba92e6d2,
+    type: 3}
+  sprintingZombie: {fileID: 172121580578702208, guid: e21331f162ed6d9499231edbba92e6d2,
+    type: 3}
+  zombieParent: {fileID: 0}
+  maxNumberOfAliveZombies: 40
+  startingAmountToSpawn: 8
+  zombieSpawnCooldown: 1
+  canSpawnZombies: 0
+--- !u!114 &4921592413071829563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979d859d19e75b34fa4fe399b28efa68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openUpgradeMenu: 0
+  currentRound: 0
+  currentRoundMoveToPos: {x: 125, y: -125, z: 0}
+  adrenaline: {fileID: 0}
+  grenade: {fileID: 0}
+  hornSFX: {fileID: 0}
+--- !u!114 &1734961533570095856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b4fff34ff8c9247bbe9fd0e708df76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpsData:
+  - {fileID: 11400000, guid: 57c84a13c9c9df14ca370952fa847e1d, type: 2}
+  - {fileID: 11400000, guid: 4f662558566573842b0a6a0530ec2424, type: 2}
+  - {fileID: 11400000, guid: d0f2bbd2afa49e840a3881616249b7ea, type: 2}
+  activePowerUps: []
+  powerUpBase: {fileID: 4045478466513652942, guid: 2092d8a292dc0a146a27d7875b5f853e,
+    type: 3}
+  powerUpUIElement: {fileID: 2048807792859048983, guid: dce42f813a1a87546a01c7ad6aad9ed8,
+    type: 3}
+  activePowerUpUIContainer: {fileID: 0}
+--- !u!114 &4866901794520760957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125436936810569452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f99af350aa4e754885c83e1e7f2baa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allUpgradeData:
+  - {fileID: 11400000, guid: 1d749a0324f284b43bdf7622c0111f39, type: 2}
+  - {fileID: 11400000, guid: 5985f460a64f4f84eba23e8917440307, type: 2}
+  - {fileID: 11400000, guid: 8b4a79ee904f63a4bb5827fd24313a80, type: 2}
+  - {fileID: 11400000, guid: 7f30d05830f8c134295575e21e305029, type: 2}
+  - {fileID: 11400000, guid: 2bfcc2dc16a82ee40a2a92ae5bdc293c, type: 2}
+  - {fileID: 11400000, guid: ca95b3c61733a9b4b97fc12782b46b61, type: 2}
+  - {fileID: 11400000, guid: 05d94fe3c9c17e24d8b050f2f19dce9d, type: 2}
+  - {fileID: 11400000, guid: 0efaf09510dd27248abb4cacfb6edeab, type: 2}
+  availableUpgrades: []
+  collectedUpgrades: []
